@@ -13,10 +13,11 @@ This project is a **gesture-based presentation controller** built using **MediaP
 ## ⚙️ Installation  
 Clone the repository and install dependencies:  
 ```bash
-git clone https://github.com/your-username/gesture_presenter.git
+git clone https://github.com/Jeevitha-Ganapathy/gesture_presenter.git
 cd gesture_presenter
 pip install cvzone mediapipe opencv-python numpy
-🎮 Gestures
+
+**🎮 Gestures**
 
 👍 Thumb up → Previous slide
 
