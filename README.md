@@ -1,39 +1,33 @@
-#🎯 Gesture Presenter – Touchless PPT Controller
+# 🎯 Gesture Presenter – Touchless PPT Controller  
 
-A gesture-based presentation controller using MediaPipe + OpenCV + cvzone.
-Control slides, draw, erase, zoom, and use a laser pointer — all with hand gestures via webcam.
+This project is a **gesture-based presentation controller** built using **MediaPipe, OpenCV, and cvzone**. It allows you to control slides, draw annotations, erase strokes, zoom, and even use a laser pointer — all through simple **hand gestures** captured by your webcam. No clickers or keyboards are required, making presentations more intuitive and accessible.  
 
-✨ Features
+## ✨ Features  
+- Navigate slides with gestures (Thumb → Previous, Pinky → Next)  
+- Draw on slides using the index finger  
+- Erase last stroke with three fingers  
+- Use a laser pointer with index + middle fingers  
+- Zoom in/out with a pinch gesture  
+- Camera feed and slides are displayed side by side in real-time  
 
-Slide navigation (Thumb → Prev, Pinky → Next)
-
-Drawing with index finger
-
-Erase strokes with 3 fingers
-
-Laser pointer with 2 fingers
-
-Zoom using pinch gesture
-
-Live camera + slides side-by-side
-
-⚙️ Installation
+## ⚙️ Installation  
+Clone the repository and install dependencies:  
+```bash
 git clone https://github.com/your-username/gesture_presenter.git
 cd gesture_presenter
 pip install cvzone mediapipe opencv-python numpy
-
-
-Place slides (images) inside the presentation/ folder.
-
-▶️ Run
-python gesture_presenter_cvzone.py
-
 🎮 Gestures
-Gesture	Action
-👍 Thumb up	- Previous slide
-🤙 Pinky up -	Next slide
-☝️ Index up -	Draw
-✊ Close fist	- End stroke
-✌️ Index + Middle	- Laser pointer
-🤟 3 fingers	- Erase stroke
-🤏 Pinch -	Zoom
+
+👍 Thumb up → Previous slide
+
+🤙 Pinky up → Next slide
+
+☝️ Index up → Draw
+
+✊ Close fist → End stroke
+
+✌️ Index + Middle → Laser pointer
+
+🤟 Three fingers → Erase stroke
+
+🤏 Pinch (Thumb + Index) → Zoom
